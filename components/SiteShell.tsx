@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-export function Logo(){return <Link href="/" className="brand" aria-label="NovaClear home"><div className="mark">N</div><div className="brand-copy"><div className="wordmark">Nova<span>Clear</span></div><div className="tagline">A fresh start. A better future.</div></div></Link>}
+export function Logo(){return <Link href="/" className="brand" aria-label="NovaClear home"><img src="/novaclear-logo.jpg" alt="NovaClear - A Fresh Start. A Better Future." style={{height:72,width:'auto',display:'block'}}/></Link>}
 
 export function Header(){return <><div className="topbar"><div className="container"><a href="tel:+27210026137">Landline: +27 21 002 6137</a><a href="https://wa.me/27796727637" target="_blank">WhatsApp: 079 672 7637</a></div></div><header className="site-header"><div className="container nav-wrap"><Logo/><nav className="nav"><Link href="/about">Who we are</Link><Link href="/debt-review">Debt review</Link><Link href="/debt-consolidation">Debt consolidation</Link><Link href="/credit-monitoring">Credit health</Link><Link href="/faq">FAQs</Link><Link href="/contact">Contact</Link><Link className="cta" href="/contact">Call me back</Link></nav><Link className="btn btn-primary mobile-only" href="/contact">Get help</Link></div></header></>}
 
